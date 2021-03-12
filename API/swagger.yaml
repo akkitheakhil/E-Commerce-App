@@ -1,0 +1,58 @@
+tags:
+- name: Products
+  description: Products API
+
+paths:
+# [GET] products/all
+  /api/products/all:
+    get:
+      tags:
+      - Products
+      summary: Find All Products
+      responses:
+        200:
+          description: 'OK'
+        500:
+          description: 'Server Error'
+
+# [GET] products/category/id
+  /api/products/category/{id}:
+    get:
+      tags:
+      - Products
+      summary: Find Product By Category
+      parameters:
+      - name: id
+        in: path
+        description: Category Name
+        required: true
+      responses:
+        200:
+          description: 'OK'
+        409:
+          description: 'Conflict'
+        500:
+          description: 'Server Error'
+
+# [GET] products/subcategory/id
+  /api/products/subcategory/{id}:
+    get:
+      tags:
+      - Products
+      summary: Find Product By Subcategory
+      parameters:
+      - name: id
+        in: path
+        description: Subcategory Name
+        required: true
+      responses:
+        200:
+          description: 'OK'
+        409:
+          description: 'Conflict'
+        500:
+          description: 'Server Error'
+
+schemes:
+ - https
+ - http
