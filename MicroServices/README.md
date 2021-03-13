@@ -1,7 +1,11 @@
-# E-Commerce - API
+# E-Commerce - MicroService API 
 
-An API build for E-Commerce app.
+An MicroService API build for E-Commerce app.
 - TypeScript + Mongoose + MongoDB + Node Express API Server
+- MicroService Architecture
+- Scalable Solution
+- Factory Design Pattern
+- Docker
 
 # Pre-reqs
 To build and run this app locally you will need a few things:
@@ -75,11 +79,12 @@ src\
  |--database\       # Mongo DB connections
  |--dto\            # Data Transfer Objects
  |--exceptions\     # Custom exception handler
- |--interface\      # Interfaces
+ |--type\           # Interface Types
  |--logs\           # Saved log files (info logs and error logs)
  |--middlewares\    # Custom express middlewares
  |--models\         # Mongoose models (data layer)
  |--routes\         # Routes
+ |--factory\        # Factory design pattern
  |--services\       # Business logic (service layer)
  |--tests\          # Test class for the projects
  |--utils\          # Utility classes and functions
