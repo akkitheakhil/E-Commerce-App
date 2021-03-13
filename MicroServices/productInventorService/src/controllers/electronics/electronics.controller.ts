@@ -1,7 +1,7 @@
-import { IElectronic } from "../../types/electronics/electronic.type";
+import { IElectronic } from "../../types/electronics/electronics.type";
 import { NextFunction, Request, Response } from 'express';
 import { Subcategories } from "../../utils/categories.enum";
-import ElectronicService from "../../services/electronics/electronic.service";
+import ElectronicService from "../../services/electronics/electronics.service";
 
 class ElectronicController {
 

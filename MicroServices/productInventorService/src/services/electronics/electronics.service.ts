@@ -1,11 +1,11 @@
 import { ProductDto } from "../../dtos/products.dto";
 import HttpException from "../../exceptions/HttpException";
-import ElectronicModelFactory from "../../factory/models/electronicModel.factory";
-import { IElectronic } from "../../types/electronics/electronic.type";
+import ElectronicModelFactory from "../../factory/models/electronicsModel.factory";
+import { IElectronic } from "../../types/electronics/electronics.type";
 import { Subcategories } from "../../utils/categories.enum";
 import { isEmpty } from "../../utils/util";
 import ProductService from "../product.service";
-import { EletronicServiceInterface } from "./electronic.service.interface";
+import { EletronicServiceInterface } from "./electronics.service.interface";
 
 class ElectronicService implements EletronicServiceInterface{
 

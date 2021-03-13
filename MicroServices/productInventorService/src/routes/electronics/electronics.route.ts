@@ -2,7 +2,7 @@ import { Router } from "express";
 import Route from "../../types/routes.type";
 import authMiddleware from "../../middlewares/auth.middleware";
 import validationMiddleware from "../../middlewares/validation.middleware";
-import ElectronicController from "../../controllers/electronics/electronic.controller";
+import ElectronicController from "../../controllers/electronics/electronics.controller";
 
 
 

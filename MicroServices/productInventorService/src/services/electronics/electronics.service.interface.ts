@@ -1,4 +1,4 @@
-import { IElectronic } from "../../types/electronics/electronic.type";
+import { IElectronic } from "../../types/electronics/electronics.type";
 
 export interface EletronicServiceInterface {
    getAllItems(): Promise<IElectronic[]>
