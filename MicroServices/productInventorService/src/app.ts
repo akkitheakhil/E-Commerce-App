@@ -90,7 +90,10 @@ class App {
     };
 
     const specs = swaggerJSDoc(options);
-    this.app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(specs));
+
+    if (this.env !== 'production') {
+      this.app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(specs));
+    }
   }
 
   private initializeErrorHandling() {

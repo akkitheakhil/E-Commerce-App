@@ -1,4 +1,4 @@
-import { IElectronic } from "../../types/electronics/electronics.type";
+import { TElectronic } from "../../types/electronics/electronics.type";
 import { NextFunction, Request, Response } from 'express';
 import { Subcategories } from "../../utils/categories.enum";
 import ElectronicService from "../../services/electronics/electronics.service";
@@ -9,7 +9,7 @@ class ElectronicController {
     const subcategoryname: Subcategories = req.params.subcategoryname as Subcategories;
     try {
       const electronicService = new ElectronicService(subcategoryname);
-      const getAllItems: IElectronic[] = await electronicService.getAllItems();
+      const getAllItems: TElectronic[] = await electronicService.getAllItems();
       res.status(200).json({ data: getAllItems, message: 'findAll' });
     } catch (error) {
       next(error);
@@ -21,7 +21,7 @@ class ElectronicController {
     const _id: string = req.params.id;
     try {
       const electronicService = new ElectronicService(subcategoryname);
-      const result: IElectronic = await electronicService.findById(_id);
+      const result: TElectronic = await electronicService.findById(_id);
       res.status(200).json({ data: result, message: 'findLaptopById' });
     } catch (error) {
       next(error);
@@ -33,7 +33,7 @@ class ElectronicController {
     const dto = req.body;
     try {
       const electronicService = new ElectronicService(subcategoryname);
-      const result: IElectronic = await electronicService.addNew(dto);
+      const result: TElectronic = await electronicService.addNew(dto);
       // const result = { subcategoryname };
       res.status(201).json({ data: result, message: 'addNewLaptop' });
     } catch (error) {
@@ -46,7 +46,7 @@ class ElectronicController {
     const _id: string = req.params.id;
     try {
       const electronicService = new ElectronicService(subcategoryname);
-      const result: IElectronic = await electronicService.deleteById(_id);
+      const result: TElectronic = await electronicService.deleteById(_id);
       res.status(200).json({ data: result, message: 'deleteLaptopById' });
     } catch (error) {
       next(error);

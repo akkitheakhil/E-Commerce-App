@@ -1,8 +1,8 @@
-import { IElectronic } from "../../types/electronics/electronics.type";
+import { TElectronic } from "../../types/electronics/electronics.type";
 
-export interface EletronicServiceInterface {
-   getAllItems(): Promise<IElectronic[]>
-   addNew(dto: any): Promise<IElectronic>
-   findById(id: string): Promise<IElectronic>
-   deleteById(id: string): Promise<IElectronic>
+export interface IEletronicService {
+   getAllItems(): Promise<TElectronic[]>
+   addNew(dto: any): Promise<TElectronic>
+   findById(id: string): Promise<TElectronic>
+   deleteById(id: string): Promise<TElectronic>
 }

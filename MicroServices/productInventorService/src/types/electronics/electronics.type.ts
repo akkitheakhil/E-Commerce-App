@@ -1,4 +1,4 @@
-import { ILaptops } from "./laptop.type";
-import { IMobile } from "./mobile.type";
+import { TLaptops } from "./laptop.type";
+import { TMobile } from "./mobile.type";
 
-export type IElectronic  = ILaptops | IMobile;
+export type TElectronic  = TLaptops | TMobile;
