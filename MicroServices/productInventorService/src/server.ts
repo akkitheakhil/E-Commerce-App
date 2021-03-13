@@ -7,7 +7,7 @@ import LaptopRoute from './routes/electronics/laptop.route';
 import LaptopAdminRoute from './routes/electronics/laptop.admin.route';
 import ProductsRoute from './routes/products.route';
 import validateEnv from './utils/validateEnv';
-import ElectronicsRoute from './routes/electronics/electronic.route';
+import ElectronicsRoute from './routes/electronics/electronics.route';
 import ElectronicsAdminRoute from './routes/electronics/electronicAdmin.route';
 
 validateEnv();

@@ -1,12 +1,7 @@
 import { model, Schema, Document } from 'mongoose';
-import { IMobile } from '../../types/electronics/mobile.type';
+import { TMobile } from '../../types/electronics/mobile.type';
 
 const mobileSchema: Schema = new Schema({
-  _id: {
-    type: String,
-    required: true,
-    unique: true,
-  },
   title: {
     type: String,
     required: true,
@@ -106,6 +101,6 @@ const mobileSchema: Schema = new Schema({
   }
 });
 
-const MobileDbModal = model<IMobile & Document>('Mobile', mobileSchema);
+const MobileDbModal = model<TMobile & Document>('Mobile', mobileSchema);
 
 export default MobileDbModal;

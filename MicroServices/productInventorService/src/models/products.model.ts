@@ -1,5 +1,5 @@
 import { model, Schema, Document } from 'mongoose';
-import { IProduct } from '../types/products.type';
+import { TProduct } from '../types/products.type';
 
 const productSchema: Schema = new Schema({
   title: {
@@ -27,6 +27,6 @@ const productSchema: Schema = new Schema({
   }
 });
 
-const productDbModal = model<IProduct & Document>('Products', productSchema);
+const ProductDbModal = model<TProduct & Document>('Products', productSchema);
 
-export default productDbModal;
+export default ProductDbModal;

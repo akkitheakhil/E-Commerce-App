@@ -1,6 +1,6 @@
 
 import { NextFunction, Request, Response } from 'express';
-import { IProduct } from '../types/products.type';
+import { TProduct } from '../types/products.type';
 import ProductService from '../services/product.service';
 import { Categories, Subcategories } from '../utils/categories.enum';
 
@@ -9,7 +9,7 @@ class ProductController {
 
   public allProducts = async (req: Request, res: Response, next: NextFunction) => {
     try {
-      const getAllProducts: IProduct[] = await this.productService.getAllProducts();
+      const getAllProducts: TProduct[] = await this.productService.getAllProducts();
       res.status(200).json({ data: getAllProducts, message: 'findAll' });
     } catch (error) {
       next(error);
@@ -19,7 +19,7 @@ class ProductController {
   public findByCategory = async (req: Request, res: Response, next: NextFunction) => {
     const categoryName: Categories = req.params.id as Categories;
     try {
-      const result: IProduct[] = await this.productService.findProductByCategory(categoryName);
+      const result: TProduct[] = await this.productService.findProductByCategory(categoryName);
       res.status(200).json({ data: result, message: 'findByCategory' });
     } catch (error) {
       next(error);
@@ -29,7 +29,7 @@ class ProductController {
   public findBySubcategory = async (req: Request, res: Response, next: NextFunction) => {
     const categoryName: Subcategories = req.params.id as Subcategories;
     try {
-      const result: IProduct[] = await this.productService.findProductBySubcategory(categoryName);
+      const result: TProduct[] = await this.productService.findProductBySubcategory(categoryName);
       res.status(200).json({ data: result, message: 'findBySubcategory' });
     } catch (error) {
       next(error);

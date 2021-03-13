@@ -1,0 +1,83 @@
+{
+    "battery": {
+      "type": "Non-removable Li-Po 2915 mAh battery (11.1 Wh)",
+      "musicPlay": "Up to 80 h",
+      "standBy": "Up to 384 h (3G)",
+      "talkTime": "Up to 24 h (3G)"
+    },
+    "body": {
+      "main": "- Fingerprint sensor (Touch ID)\n- Apple Pay (Visa, MasterCard, AMEX certified)",
+      "dimensions": "158.1 x 77.8 x 7.1 mm (6.22 x 3.06 x 0.28 in)",
+      "sim": "Nano-SIM",
+      "weight": "172 g (6.07 oz)"
+    },
+    "camera": {
+      "features": "1/3'' sensor size, 1.5µm pixel size, geo-tagging, simultaneous HD video and image recording, touch focus, face/smile detection, HDR (photo/panorama)",
+      "primary": "8 MP, 3264 x 2448 pixels, optical image stabilization, phase detection autofocus, dual-LED (dual tone) flash, check quality",
+      "secondary": "1.2 MP, 720p@30fps, face detection, HDR, FaceTime over Wi-Fi or Cellular",
+      "video": "1080p@60fps, 720p@240fps, optical stabilization, check quality"
+    },
+    "comms": {
+      "bluetooth": "v4.0, A2DP, LE",
+      "gps": "Yes, with A-GPS, GLONASS",
+      "nfc": "Yes (Apple Pay only)",
+      "radio": "No",
+      "usb": "v2.0, reversible connector",
+      "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, hotspot"
+    },
+    "display": {
+      "multitouch": "Yes",
+      "protection": "Ion-strengthened glass, oleophobic coating",
+      "resolution": "1080 x 1920 pixels (~401 ppi pixel density)",
+      "size": "5.5 inches (~67.8% screen-to-body ratio)",
+      "type": "LED-backlit IPS LCD, capacitive touchscreen, 16M colors"
+    },
+    "features": {
+      "main": "- Active noise cancellation with dedicated mic\n- Siri natural language commands and dictation\n- iCloud cloud service\n- iCloud Keychain\n- TV-out\n- Maps\n- iBooks PDF reader\n- Audio/video player/editor\n- Organizer\n- Document viewer/editor\n- Photo viewer/editor\n- Voice memo/dial/command\n- Predictive text input",
+      "browser": "HTML5 (Safari)",
+      "java": "No",
+      "messaging": "iMessage, SMS (threaded view), MMS, Email, Push Email",
+      "sensors": "Accelerometer, gyro, proximity, compass, barometer"
+    },
+    "launch": {
+      "announced": "2014, September",
+      "status": "Available. Released 2014, September"
+    },
+    "memory": {
+      "cardSlot": "No",
+      "internal": "16/64/128 GB, 1 GB RAM"
+    },
+    "misc": {
+      "colors": "Space Gray, Silver, Gold"
+    },
+    "network": {
+      "bands": "LTE band 1(2100), 2(1900), 3(1800), 4(1700/2100), 5(850), 7(2600), 8(900), 13(700), 17(700), 18(800), 19(800), 20(800), 25(1900), 26(850), 28(700), 29(700), 38(2600), 39(1900), 40(2300), 41(2500) - A1524",
+      "2GBands": "GSM 850 / 900 / 1800 / 1900 - A1522 (GSM), A1522 (CDMA), A1524",
+      "3GBands": "HSDPA 850 / 900 / 1700 / 1900 / 2100 - A1522 (GSM), A1522 (CDMA), A1524",
+      "4GBands": "LTE band 1(2100), 2(1900), 3(1800), 4(1700/2100), 5(850), 7(2600), 8(900), 13(700), 17(700), 18(800), 19(800), 20(800), 25(1900), 26(850), 28(700), 29(700) - A1522 GSM, A1522 CDMA",
+      "5GBands": "",
+      "edge": "Yes",
+      "gprs": "Yes",
+      "speed": "HSPA 42.2/5.76 Mbps, LTE Cat4 150/50 Mbps, EV-DO Rev.A 3.1 Mbps",
+      "technology": "GSM / CDMA / HSPA / EVDO / LTE"
+    },
+    "platform": {
+      "cpu": "Dual-core 1.4 GHz Cyclone (ARM v8-based)",
+      "chipset": "Apple A8",
+      "gpu": "PowerVR GX6450 (quad-core graphics)",
+      "os": "iOS 8, upgradable to iOS 8.4"
+    },
+    "sound": {
+      "jack": "Yes",
+      "alertTypes": "Vibration, proprietary ringtones",
+      "loudspeaker": "Yes"
+    },
+    "deviceName": "Apple iPhone 6 Plus",
+    "url": "http://www.gsmarena.com/apple_iphone_6_plus-6665.php",
+    "title": "Apple iPhone 6 Plus",
+    "price": 109.95,
+    "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+    "category": "Electronics",
+    "subcategory": "Mobile",
+    "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
+  }

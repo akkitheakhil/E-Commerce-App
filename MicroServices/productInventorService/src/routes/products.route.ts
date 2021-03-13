@@ -1,8 +1,8 @@
-import Route from '../types/routes.type';
+import TRoute from '../types/routes.type';
 import { Router } from 'express';
 import ProductController from '../controllers/products.controller';
 
-class ProductsRoute implements Route {
+class ProductsRoute implements TRoute {
   public path = '/api/products';
   public router = Router();
   public productController = new ProductController();

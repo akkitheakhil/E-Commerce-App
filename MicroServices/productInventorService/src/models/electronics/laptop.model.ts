@@ -1,12 +1,7 @@
 import { model, Schema, Document } from 'mongoose';
-import { ILaptops } from '../../types/electronics/laptop.type';
+import { TLaptops } from '../../types/electronics/laptop.type';
 
 const laptopSchema: Schema = new Schema({
-  _id: {
-    type: String,
-    required: true,
-    unique: true,
-  },
   title: {
     type: String,
     required: true,
@@ -106,6 +101,6 @@ const laptopSchema: Schema = new Schema({
   }
 });
 
-const LaptopDbModal = model<ILaptops & Document>('Laptops', laptopSchema);
+const LaptopDbModal = model<TLaptops & Document>('Laptops', laptopSchema);
 
 export default LaptopDbModal;

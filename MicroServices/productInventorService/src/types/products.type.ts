@@ -1,6 +1,6 @@
 import { Categories, Subcategories } from "../utils/categories.enum";
 
-export interface IProduct {
+export interface TProduct {
   _id: string;
   title: string;
   price: number;

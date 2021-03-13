@@ -1,16 +1,16 @@
-import { IProduct } from "../products.type";
+import { TProduct } from "../products.type";
 
-export interface Battery {
+interface Battery {
   batteryType: string;
   standbytime: string;
 }
 
-export interface Camera {
+interface Camera {
   features: string[];
   primary: string;
 }
 
-export interface Connectivity {
+interface Connectivity {
   bluetooth: string;
   cell: string;
   gps: boolean;
@@ -18,12 +18,12 @@ export interface Connectivity {
   wifi: string;
 }
 
-export interface Display {
+interface Display {
   screenResolution: string;
   screenSize: string;
 }
 
-export interface Hardware {
+ interface Hardware {
   accelerometer: boolean;
   audioJack: string;
   cpu: string;
@@ -33,17 +33,17 @@ export interface Hardware {
   usb: string;
 }
 
-export interface SizeAndWeight {
+interface SizeAndWeight {
   dimensions: string[];
   weight: string;
 }
 
-export interface Storage {
+ interface Storage {
   hdd: string;
   ram: string;
 }
 
-export interface ILaptops extends IProduct{
+export interface TLaptops extends TProduct{
   additionalFeatures: string[];
   os: string;
   battery: Battery;
