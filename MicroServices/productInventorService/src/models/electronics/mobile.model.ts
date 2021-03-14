@@ -25,11 +25,11 @@ const mobileSchema: Schema = new Schema({
   image: {
     type: String,
   },
-  name: {
+  deviceName: {
     type: String,
     required: true,
   },
-  os: {
+  url: {
     type: String,
     required: true,
   },
@@ -37,68 +37,176 @@ const mobileSchema: Schema = new Schema({
     batteryType: {
       type: String,
     },
-    standbytime: {
+    standBy: {
       type: String,
-    }
+    },
+    musicPlay: {
+      type: String,
+    },
+    talkTime: {
+      type: String,
+    },
+    charging: {
+      type: String,
+    },
   },
   camera: {
-    features: [{
+    features: {
       type: String
-    }],
+    },
     primary: {
       type: String,
-    }
+    },
+    secondary: {
+      type: String,
+    },
+    video: {
+      type: String,
+    },
   },
   display: {
-    screenResolution: {
+    multitouch: {
       type: String
     },
-    screenSize: {
+    protection: {
       type: String
-    }
+    },
+    resolution: {
+      type: String
+    },
+    size: {
+      type: String
+    },
+    displayType: {
+      type: String
+    },
   },
-  hardware: {
-    accelerometer: {
-      type: Boolean
+  connectivity: {
+    bluetooth: {
+      type: String,
     },
-    audioJack: {
+    gps: {
+      type: String,
+    },
+    nfc: {
+      type: String,
+    },
+    radio: {
+      type: String,
+    },
+    usb: {
+      type: String,
+    },
+    wlan: {
+      type: String,
+    },
+  },
+
+  features: {
+    main: {
       type: String
     },
+    browser: {
+      type: String
+    },
+    messaging: {
+      type: String
+    },
+    sensors: {
+      type: String
+    },
+  },
+  launch: {
+    announced: {
+      type: String
+    },
+    status: {
+      type: String
+    },
+  },
+  memory: {
+    cardSlot: {
+      type: String
+    },
+    internal: {
+      type: String
+    },
+  },
+  misc: {
+    colors: {
+      type: String
+    },
+  },
+
+  network: {
+    bands: {
+      type: String
+    },
+    band2G: {
+      type: String
+    },
+    band3G: {
+      type: String
+    },
+    band4G: {
+      type: String
+    },
+    bands5G: {
+      type: String
+    },
+    edge: {
+      type: String
+    },
+    gprs: {
+      type: String
+    },
+    speed: {
+      type: String
+    },
+    technology: {
+      type: String
+    },
+  },
+  platform: {
     cpu: {
       type: String
     },
-    graphics: {
+    chipset: {
       type: String
     },
-    fmRadio: {
-      type: Boolean
-    },
-    physicalKeyboard: {
-      type: Boolean
-    },
-    usb: {
+    gpu: {
       type: String
-    }
+    },
+    os: {
+      type: String
+    },
   },
-  images: [{
-    type: String
-  }],
-  sizeAndWeight: {
-    dimensions: [{
+  sound: {
+    jack: {
       type: String
-    }],
+    },
+    alertTypes: {
+      type: String
+    },
+    loudspeaker: {
+      type: String
+    },
+  },
+  body: {
+    main: {
+      type: String
+    },
+    dimensions: {
+      type: String
+    },
+    sim: {
+      type: String
+    },
     weight: {
       type: String
-    }
+    },
   },
-  storage: {
-    hdd: {
-      type: String
-    },
-    ram: {
-      type: String
-    },
-  }
+
 });
 
 const MobileDbModal = model<TMobile & Document>('Mobile', mobileSchema);
