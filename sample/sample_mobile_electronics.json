@@ -17,7 +17,7 @@
       "secondary": "1.2 MP, 720p@30fps, face detection, HDR, FaceTime over Wi-Fi or Cellular",
       "video": "1080p@60fps, 720p@240fps, optical stabilization, check quality"
     },
-    "comms": {
+    "connectivity": {
       "bluetooth": "v4.0, A2DP, LE",
       "gps": "Yes, with A-GPS, GLONASS",
       "nfc": "Yes (Apple Pay only)",
@@ -52,10 +52,10 @@
     },
     "network": {
       "bands": "LTE band 1(2100), 2(1900), 3(1800), 4(1700/2100), 5(850), 7(2600), 8(900), 13(700), 17(700), 18(800), 19(800), 20(800), 25(1900), 26(850), 28(700), 29(700), 38(2600), 39(1900), 40(2300), 41(2500) - A1524",
-      "2GBands": "GSM 850 / 900 / 1800 / 1900 - A1522 (GSM), A1522 (CDMA), A1524",
-      "3GBands": "HSDPA 850 / 900 / 1700 / 1900 / 2100 - A1522 (GSM), A1522 (CDMA), A1524",
-      "4GBands": "LTE band 1(2100), 2(1900), 3(1800), 4(1700/2100), 5(850), 7(2600), 8(900), 13(700), 17(700), 18(800), 19(800), 20(800), 25(1900), 26(850), 28(700), 29(700) - A1522 GSM, A1522 CDMA",
-      "5GBands": "",
+      "band2G": "GSM 850 / 900 / 1800 / 1900 - A1522 (GSM), A1522 (CDMA), A1524",
+      "band3G": "HSDPA 850 / 900 / 1700 / 1900 / 2100 - A1522 (GSM), A1522 (CDMA), A1524",
+      "band4G": "LTE band 1(2100), 2(1900), 3(1800), 4(1700/2100), 5(850), 7(2600), 8(900), 13(700), 17(700), 18(800), 19(800), 20(800), 25(1900), 26(850), 28(700), 29(700) - A1522 GSM, A1522 CDMA",
+      "band5G": "",
       "edge": "Yes",
       "gprs": "Yes",
       "speed": "HSPA 42.2/5.76 Mbps, LTE Cat4 150/50 Mbps, EV-DO Rev.A 3.1 Mbps",

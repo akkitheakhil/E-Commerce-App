@@ -1,61 +1,102 @@
 import { TProduct } from "../products.type";
 
-
-interface Battery {
+export interface Battery {
   batteryType: string;
-  standbytime: string;
+  musicPlay: string;
+  standBy: string;
+  talkTime: string;
 }
 
-interface Camera {
-  features: string[];
+export interface Body {
+  main: string;
+  dimensions: string;
+  sim: string;
+  weight: string;
+}
+
+export interface Camera {
+  features: string;
   primary: string;
+  secondary: string;
+  video: string;
 }
 
 interface Connectivity {
   bluetooth: string;
-  cell: string;
-  gps: boolean;
-  infrared: boolean;
-  wifi: string;
+  gps: string;
+  nfc: string;
+  radio: string;
+  usb: string;
+  wlan: string;
 }
 
 interface Display {
-  screenResolution: string;
-  screenSize: string;
+  multitouch: string;
+  protection: string;
+  resolution: string;
+  size: string;
+  type: string;
 }
 
-interface Hardware {
-  accelerometer: boolean;
-  audioJack: string;
+interface Features {
+  main: string;
+  browser: string;
+  messaging: string;
+  sensors: string;
+}
+
+interface Launch {
+  announced: string;
+  status: string;
+}
+
+interface Memory {
+  cardSlot: string;
+  internal: string;
+}
+
+interface Misc {
+  colors: string;
+}
+
+interface Network {
+  bands: string;
+  band2G: string;
+  band3G: string;
+  band4G: string;
+  bands5G: string;
+  edge: string;
+  gprs: string;
+  speed: string;
+  technology: string;
+}
+
+interface Platform {
   cpu: string;
-  graphics: string;
-  fmRadio: boolean;
-  physicalKeyboard: boolean;
-  usb: string;
+  chipset: string;
+  gpu: string;
+  os: string;
 }
 
-interface SizeAndWeight {
-  dimensions: string[];
-  weight: string;
-}
-
-interface Storage {
-  hdd: string;
-  ram: string;
+interface Sound {
+  jack: string;
+  alertTypes: string;
+  loudspeaker: string;
 }
 
 export interface TMobile extends TProduct {
-  additionalFeatures: string[];
-  os: string;
   battery: Battery;
+  body: Body;
   camera: Camera;
   connectivity: Connectivity;
   display: Display;
-  hardware: Hardware;
-  _id: string;
-  images: string[];
-  name: string;
-  sizeAndWeight: SizeAndWeight;
-  storage: Storage;
+  features: Features;
+  launch: Launch;
+  memory: Memory;
+  misc: Misc;
+  network: Network;
+  platform: Platform;
+  sound: Sound;
+  deviceName: string;
+  url: string;
 }
-
