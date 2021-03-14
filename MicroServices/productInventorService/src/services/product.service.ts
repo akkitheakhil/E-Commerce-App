@@ -4,14 +4,11 @@ import { TProduct } from "../types/products.type";
 import ProductDbModal from "../models/products.model";
 import { Categories, Subcategories } from "../utils/categories.enum";
 import { isEmpty } from "../utils/util";
-import CategoryDbModal from "../models/categories.model";
 
 class ProductService {
 
   // Mongoose Database helper.
   public productDbModal = ProductDbModal;
-  public categoryDbModal = CategoryDbModal;
-
 
   public async getAllProducts(): Promise<TProduct[]> {
     const products: TProduct[] = await ProductDbModal.find();

@@ -77,7 +77,7 @@ const mobileSchema: Schema = new Schema({
     size: {
       type: String
     },
-    type: {
+    displayType: {
       type: String
     },
   },

@@ -13,10 +13,10 @@
       "weight": "172 g (6.07 oz)"
     },
     "camera": {
-      "features": "1/3'' sensor size, 1.5µm pixel size, geo-tagging, simultaneous HD video and image recording, touch focus, face/smile detection, HDR (photo/panorama)",
-      "primary": "8 MP, 3264 x 2448 pixels, optical image stabilization, phase detection autofocus, dual-LED (dual tone) flash, check quality",
-      "secondary": "1.2 MP, 720p@30fps, face detection, HDR, FaceTime over Wi-Fi or Cellular",
-      "video": "1080p@60fps, 720p@240fps, optical stabilization, check quality"
+      "features": "Dual-LED dual-tone flash, HDR (photo/panorama)",
+      "primary": "Dual \n- 12 MP, f/1.6, 26mm (wide), 1.4µm, dual pixel PDAF, OIS \n- 12 MP, f/2.4, 120˚, 13mm (ultrawide), 1/3.6",
+      "secondary": "12 MP, f/2.2, 23mm (wide), 1/3.6",
+      "video": "4K@24/30/60fps, 1080p@30/60/120/240fps, HDR, Dolby Vision HDR (up to 30fps), stereo sound rec."
     },
     "connectivity": {
       "bluetooth": "v4.0, A2DP, LE",
@@ -28,10 +28,10 @@
     },
     "display": {
       "multitouch": "Yes",
-      "protection": "Ion-strengthened glass, oleophobic coating",
-      "resolution": "1080 x 1920 pixels (~401 ppi pixel density)",
-      "size": "5.5 inches (~67.8% screen-to-body ratio)",
-      "type": "LED-backlit IPS LCD, capacitive touchscreen, 16M colors"
+      "protection": "Scratch-resistant ceramic glass, oleophobic coating",
+      "resolution": "1170 x 2532 pixels, 19.5:9 ratio (~460 ppi density)",
+      "size": "6.1 inches, 90.2 cm2 (~86.0% screen-to-body ratio)",
+      "displayType": "Super Retina XDR OLED, HDR10, 625 nits (typ), 1200 nits (peak)"
     },
     "features": {
       "main": "- Face ID, accelerometer, gyro, proximity, compass, barometer\n- Siri natural language commands and dictation\n- Ultra Wideband (UWB) support",
@@ -45,7 +45,7 @@
     },
     "memory": {
       "cardSlot": "No",
-      "internal": "16/64/128 GB, 1 GB RAM"
+      "internal": "64GB 4GB RAM, 128GB 4GB RAM, 256GB 4GB RAM"
     },
     "misc": {
       "colors": "Space Gray, Silver, Gold"
@@ -62,21 +62,21 @@
       "technology": "GSM / CDMA / HSPA / EVDO / LTE / 5G"
     },
     "platform": {
-      "cpu": "Dual-core 1.4 GHz Cyclone (ARM v8-based)",
-      "chipset": "Apple A8",
-      "gpu": "PowerVR GX6450 (quad-core graphics)",
-      "os": "iOS 8, upgradable to iOS 8.4"
+      "cpu": "Hexa-core (2x3.1 GHz Firestorm + 4x1.8 GHz Icestorm)",
+      "chipset": "Apple A14 Bionic (5 nm)",
+      "gpu": "Apple GPU (4-core graphics)",
+      "os": "iOS 14.1, upgradable to iOS 14.4"
     },
     "sound": {
       "jack": "Yes",
       "alertTypes": "Vibration, proprietary ringtones",
       "loudspeaker": "Yes"
     },
-    "deviceName": "Apple iPhone 6 Plus",
+    "deviceName": "Apple iPhone 12",
     "url": "http://www.gsmarena.com/apple_iphone_6_plus-6665.php",
-    "title": "Apple iPhone 6 Plus",
+    "title": "Apple iPhone 12",
     "price": 109.95,
-    "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+    "description": "Apple iPhone 12. The latest and greatest from apple",
     "category": "Electronics",
     "subcategory": "Mobile",
     "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"

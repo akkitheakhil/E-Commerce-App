@@ -36,7 +36,7 @@ interface Display {
   protection: string;
   resolution: string;
   size: string;
-  type: string;
+  displayType: string;
 }
 
 interface Features {

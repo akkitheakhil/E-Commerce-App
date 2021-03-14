@@ -80,7 +80,7 @@ class Display {
   size: string;
 
   @IsString()
-  type: string;
+  displayType: string;
 }
 
 class Features {
