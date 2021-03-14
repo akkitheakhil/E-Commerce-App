@@ -5,6 +5,7 @@ export interface Battery {
   musicPlay: string;
   standBy: string;
   talkTime: string;
+  charging: string;
 }
 
 export interface Body {

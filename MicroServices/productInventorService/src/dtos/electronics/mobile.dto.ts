@@ -12,6 +12,9 @@ class Battery {
   standBy: string;
 
   @IsString()
+  charging: string;
+
+  @IsString()
   talkTime: string;
 }
 

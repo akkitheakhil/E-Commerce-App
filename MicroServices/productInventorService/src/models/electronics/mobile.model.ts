@@ -46,6 +46,9 @@ const mobileSchema: Schema = new Schema({
     talkTime: {
       type: String,
     },
+    charging: {
+      type: String,
+    },
   },
   camera: {
     features: {

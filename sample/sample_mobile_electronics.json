@@ -1,9 +1,10 @@
 {
     "battery": {
-      "type": "Non-removable Li-Po 2915 mAh battery (11.1 Wh)",
-      "musicPlay": "Up to 80 h",
-      "standBy": "Up to 384 h (3G)",
-      "talkTime": "Up to 24 h (3G)"
+      "batteryType": "Li-Ion 2815 mAh, non-removable (10.78 Wh)",
+      "musicPlay": "Up to 65 h",
+      "standBy": "Up to 17 h (multimedia)",
+      "talkTime": "Up to 24 h (3G)",
+      "charging": "Fast charging 20W, 50% in 30 min (advertised) / USB Power Delivery 2.0 / Qi magnetic fast wireless charging 15W"
     },
     "body": {
       "main": "- Fingerprint sensor (Touch ID)\n- Apple Pay (Visa, MasterCard, AMEX certified)",
@@ -33,9 +34,8 @@
       "type": "LED-backlit IPS LCD, capacitive touchscreen, 16M colors"
     },
     "features": {
-      "main": "- Active noise cancellation with dedicated mic\n- Siri natural language commands and dictation\n- iCloud cloud service\n- iCloud Keychain\n- TV-out\n- Maps\n- iBooks PDF reader\n- Audio/video player/editor\n- Organizer\n- Document viewer/editor\n- Photo viewer/editor\n- Voice memo/dial/command\n- Predictive text input",
+      "main": "- Face ID, accelerometer, gyro, proximity, compass, barometer\n- Siri natural language commands and dictation\n- Ultra Wideband (UWB) support",
       "browser": "HTML5 (Safari)",
-      "java": "No",
       "messaging": "iMessage, SMS (threaded view), MMS, Email, Push Email",
       "sensors": "Accelerometer, gyro, proximity, compass, barometer"
     },
@@ -52,14 +52,14 @@
     },
     "network": {
       "bands": "LTE band 1(2100), 2(1900), 3(1800), 4(1700/2100), 5(850), 7(2600), 8(900), 13(700), 17(700), 18(800), 19(800), 20(800), 25(1900), 26(850), 28(700), 29(700), 38(2600), 39(1900), 40(2300), 41(2500) - A1524",
-      "band2G": "GSM 850 / 900 / 1800 / 1900 - A1522 (GSM), A1522 (CDMA), A1524",
-      "band3G": "HSDPA 850 / 900 / 1700 / 1900 / 2100 - A1522 (GSM), A1522 (CDMA), A1524",
-      "band4G": "LTE band 1(2100), 2(1900), 3(1800), 4(1700/2100), 5(850), 7(2600), 8(900), 13(700), 17(700), 18(800), 19(800), 20(800), 25(1900), 26(850), 28(700), 29(700) - A1522 GSM, A1522 CDMA",
-      "band5G": "",
+      "band2G": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2 (dual-SIM) - for China",
+      "band3G": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+      "band4G": "1, 2, 3, 4, 5, 7, 8, 12, 13, 14, 17, 18, 19, 20, 25, 26, 28, 29, 30, 32, 34, 38, 39, 40, 41, 42, 46, 48, 66, 71 - A2172",
+      "band5G": "1, 2, 3, 5, 7, 8, 12, 20, 25, 28, 38, 40, 41, 66, 71, 77, 78, 79, 260, 261 Sub6/mmWave - A2172",
       "edge": "Yes",
       "gprs": "Yes",
-      "speed": "HSPA 42.2/5.76 Mbps, LTE Cat4 150/50 Mbps, EV-DO Rev.A 3.1 Mbps",
-      "technology": "GSM / CDMA / HSPA / EVDO / LTE"
+      "speed": "HSPA 42.2/5.76 Mbps, LTE-A, 5G, EV-DO Rev.A 3.1 Mbps",
+      "technology": "GSM / CDMA / HSPA / EVDO / LTE / 5G"
     },
     "platform": {
       "cpu": "Dual-core 1.4 GHz Cyclone (ARM v8-based)",
